@@ -29,9 +29,6 @@ export class HomeComponent {
         this.dataSource.data = this.data;
         console.log(this.data);
       },
-      (error) => {
-        console.error('Error fetching data:', error);
-      }
     )
   }
   /** Whether the number of selected elements matches the total number of rows. */
